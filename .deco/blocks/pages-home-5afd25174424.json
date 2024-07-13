@@ -1,42 +1,226 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Big Norte Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "alt": "Logo Big Norte",
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/c2134b47-65f1-46f3-b945-162742b42476"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<h2>Who we are</h2>",
+      "cta": [],
+      "description": "We have been operating since 1994 in the basic and alternative sanitation market, offering services for collection and transportation of sanitary effluents for industries, businesses, and residences throughout Maranhão - Brazil.  We are a reference in quality and service availability, offering a wide range of equipment and services to meet our clients' needs."
+    },
+    {
+      "__resolveType": "site/sections/Numbers.tsx",
+      "title": "+123k",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/e2b19a05-9fb8-4b5d-8e85-0693eed8d9d6",
+      "description": "Safe Chemical Toilet Cleanings"
+    },
+    {
+      "__resolveType": "site/sections/Numbers.tsx",
+      "title": "+40",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/babfcf38-d864-44c5-9329-be5be69008c9",
+      "description": "Companies Served Nationally"
+    },
+    {
+      "__resolveType": "site/sections/Numbers.tsx",
+      "title": "+8k m³",
+      "description": "Effluents Collected and Treated",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/24cdcb10-63d7-40ba-9840-33e75ce04b52"
+    },
+    {
+      "__resolveType": "site/sections/Numbers.tsx",
+      "title": "+1.5k",
+      "description": "Solid Waste Transported and Recycled",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/870528ab-4906-454e-9ae1-e6d4290640d8"
+    },
+    {
+      "__resolveType": "site/sections/Numbers.tsx",
+      "title": "0 Accidents",
+      "description": "Workplace Accident Occurrences",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/7ecaf385-9537-4827-b0af-bb4ae9ba1189"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Our Clients",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/c2645338-aa98-45f5-a5dd-bf647f410f7d",
+          "altText": "Alfa"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/a1d4c723-9615-43cf-baff-eff2d93d3b4c",
+          "altText": "Cortez"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/70cab85e-51d0-4063-8994-1b630808e901",
+          "altText": "Enese"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/366d2e62-b45a-4145-9914-173e5439c0f3",
+          "altText": "Metso"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/036b8e74-7efb-42e4-a8c2-a9cb6c16d982",
+          "altText": "Normatel"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/bb71579d-1abd-4641-8e78-b910fba5ba84",
+          "altText": "Penitenciario"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/12a7320c-a597-4a61-959b-c24084133395",
+          "altText": "Plamont"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/6ba7759f-55b6-4d23-bba7-69d7b1554d16",
+          "altText": "Porto"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/3097cb52-f31a-4e06-b2de-54e7e5434eb6",
+          "altText": "Sucena"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/ea2f7b1e-df59-45be-a39f-98334dafda03",
+          "altText": "Sanches"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/46efb092-863c-4815-8efd-ab0006feac0d",
+          "altText": "Vale"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Chemical and Plumbing Toilets",
+      "description": "Chemical and plumbing toilets are a great way to provide access to basic sanitation in remote locations or where there are no sanitation facilities available.\n\nChemical toilets are portable and can be easily transported and installed, whereas plumbing toilets are connected to the water and sewage network.",
+      "tagline": "Services",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/f72efb6d-de86-4fce-9b20-7f1258aa3e8b",
+      "cta": [],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Hygiene Truck for Cleaning and Transporting Chemical Toilets",
+      "description": "This is the perfect solution for events, construction sites, and other locations where a clean and accessible restroom is needed. They are equipped with all the necessary equipment for cleaning and transporting chemical toilets, with professionals trained to perform the service quickly and safely.",
+      "placement": "right",
+      "tagline": "Services",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/0999bb61-3dd6-4482-9f1c-941d9d42502a",
+      "cta": [],
+      "disableSpacing": {
+        "top": false
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Equipment Rental",
+      "description": "Are you looking for a way to save money on equipment?\nRenting is the perfect solution for you! With equipment rental, you can lease what you need for a specific period of time instead of buying it. This can help you save money on purchase costs, maintenance, and depreciation.",
+      "placement": "left",
+      "tagline": "Services",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/0cbd27ba-ba0a-4502-bcbf-78a500c1df4c",
+      "cta": [],
+      "disableSpacing": {
+        "top": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Blog Posts",
+      "posts": [
+        {
+          "tags": [
+            "Security",
+            "Work"
+          ],
+          "title": "Workplace Safety and Requirements for Critical Activities ",
+          "author": "Big Norte",
+          "excerpt": "Big Norte is a reference in occupational safety, maintaining a remarkable track record of zero accidents. This achievement demonstrates the company's commitment to protecting its employees.  The company strictly adheres to Requirements for Critical Activities (RAC 2 and 3) and other safety regulations. It also invests in frequent training sessions, ensuring that the team is prepared for any emergency situation.",
+          "date": "29/12/2023",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/45b8afba-6056-4e53-bb70-b134d2bda6e1"
+        },
+        {
+          "tags": [
+            "Cleaning"
+          ],
+          "title": "Chemical Toilets in Civil Construction",
+          "author": "Big Norte",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/9ad10c77-e7ee-4403-9113-cb0590a028ab",
+          "date": "28/08/2023",
+          "excerpt": "Hydraulic toilets offer flushing systems that keep the environment clean and odor-free. Additionally, they come with separate compartments, including sinks and high-quality toilets, providing the comfort of a conventional bathroom in the workplace and creating a pleasant and healthy space for everyone. Therefore, choosing hydraulic toilets on construction sites is not just a practical decision, but an investment in the well-being and productivity of everyone. Hydraulic toilets offer flushing systems that keep the environment clean and odor-free. Additionally, they come with separate compartments, including sinks and high-quality toilets, providing the comfort of a conventional bathroom in the workplace and creating a pleasant and healthy space for everyone. "
+        },
+        {
+          "tags": [],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/3d54dffa-5331-40db-99af-ffa5b0fae2e7",
+          "date": "28/08/2023",
+          "title": "Effluent and Waste Removal",
+          "author": "Big Norte",
+          "excerpt": "By removing effluents and waste, we are contributing to the reduction of water contamination risks and, consequently, protecting marine life. Exposure to harmful substances can lead to impacts on biodiversity, causing imbalances and changes in the variety of species in the oceans. By committing to effluent cleaning, we are acting with environmental responsibility and ensuring a more sustainable future for the next generations.  By removing effluents and waste, we are contributing to  the reduction of water contamination risks and,  consequently, protecting marine life.  Exposure to harmful substances can lead to impacts  on biodiversity, causing imbalances and changes  in the variety of species in the oceans.  By committing to effluent cleaning,  we are acting with environmental responsibility and  ensuring a more sustainable future for the next generations. Join us in this cause! "
+        }
+      ],
+      "description": "Read some posts from our blog."
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "name": "Nikarcia Rios",
+            "description": "Competent company in punctuality and quality. Excellent service 👏🏽👏🏽👏🏽",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/c2134b47-65f1-46f3-b945-162742b42476"
+          }
+        },
+        {
+          "content": {
+            "description": "Wonderful company, first-class service.",
+            "name": "Raniery Mendes",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/712204cc-04e4-43c4-a90f-67c693f683af"
+          }
+        },
+        {
+          "content": {
+            "description": "Very competent and professional company! Congratulations!",
+            "name": "Pádua Weber",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/c2134b47-65f1-46f3-b945-162742b42476"
+          }
+        }
+      ],
+      "dots": false,
+      "interval": 0,
+      "title": "Testimonials"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "title": "Contact Us ",
+        "description": "comercial.bignorte@gmail.com",
+        "instructions": "<pre><code>Welcome to Big Norte</code></pre>"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/712204cc-04e4-43c4-a90f-67c693f683af"
+      },
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/de5aaf1d-07f0-401f-aeb9-ab7031485ca3"
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

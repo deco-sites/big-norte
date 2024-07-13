@@ -76,7 +76,7 @@
     "__resolveType": "decohub/apps/htmx.ts"
   },
   "/.deco/blocks/pages-home-5afd25174424.json": {
-    "name": "Home",
+    "name": "Big Norte Home",
     "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -102,6 +102,10 @@
     "__resolveType": "site/sections/Footer.tsx"
   },
   "/.deco/blocks/Vanilla.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/BigNorte.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   }

@@ -113,7 +113,7 @@ export default function Footer({
             <Image
               src={logo.src || ""}
               width={100}
-              height={28}
+              height={75}
               alt={logo.alt}
             />
           </div>
@@ -169,7 +169,7 @@ export default function Footer({
               <Image
                 src={madeWith?.src || ""}
                 width={100}
-                height={28}
+                height={100}
                 alt={madeWith?.label}
               />
             </a>

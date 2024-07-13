@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Landing",
+    "title": "Big Norte",
     "jsonLDs": [],
     "noIndexing": false,
     "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Landing | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/0fba8a8c-ee79-47e1-8f9d-863658d056cc",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "titleTemplate": "Big Norte Presentation",
+    "descriptionTemplate": "Big Norte | Deco.cx",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/6b56ee95-3828-4624-b2fb-48fa5acdea97",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11774/adb7ca4e-06d7-4e0d-960b-cfa884819484"
   },
   "global": [
     {
@@ -29,6 +29,6 @@
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": false,
   "theme": {
-    "__resolveType": "Neutral"
+    "__resolveType": "BigNorte"
   }
 }
